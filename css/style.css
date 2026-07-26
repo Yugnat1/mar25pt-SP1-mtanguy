@@ -1,0 +1,63 @@
+:root {
+  --primary: #2d6a4f;
+  --primary-dark: #1f4d3a;
+  --secondary: #3a86b8;
+  --accent: #ff7b54;
+  --accent-dark: #e86642;
+  --bg: #f8f9fa;
+  --surface: #fff;
+  --text: #212529;
+  --muted: #667085;
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+  --max: 1200px;
+  --shadow: 0 12px 30px rgba(20, 37, 29, 0.08);
+  --clr-primary: var(--primary);
+  --clr-primary-dark: var(--primary-dark);
+  --clr-secondary: var(--secondary);
+  --clr-accent: var(--accent);
+  --clr-surface: var(--surface);
+  --clr-text-muted: var(--muted);
+  --clr-border: #dfe4e8;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --radius-md: 1rem;
+  --shadow-soft: var(--shadow);
+}
+
+/* ========= GLOBAL ===================*/
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+}
+a {
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.15;
+}
+h1 {
+  font-size: clamp(2.6rem, 7vw, 5rem);
+}
+h2 {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+}
+h3 {
+  font-size: 1.25rem;
+}
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
