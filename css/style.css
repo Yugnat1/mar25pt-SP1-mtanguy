@@ -89,6 +89,10 @@ header {
     min-height: 50vh;
     background-color: var(--surface);
 }
+
+.next-adventure {
+  
+}
 /*====== NAV ======*/
 nav a {
     display: inline;
