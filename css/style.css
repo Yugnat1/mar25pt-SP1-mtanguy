@@ -5,6 +5,7 @@
   --accent: #ff7b54;
   --accent-dark: #e86642;
   --bg: #f8f9fa;
+  --bg-dark: #c5dad6;
   --surface: #fff;
   --text: #212529;
   --muted: #667085;
@@ -91,8 +92,26 @@ header {
 }
 
 .next-adventure {
-  
+  background-color: var(--bg);
+
 }
+
+.section {
+  padding: 5rem 10%;
+}
+
+.section-light {
+  background-color: var(--bg)
+}
+
+.section-dark {
+  background-color: var(--bg-dark)
+}
+
+.next-adventure img {
+  width: 50%;
+}
+
 /*====== NAV ======*/
 nav a {
     display: inline;
