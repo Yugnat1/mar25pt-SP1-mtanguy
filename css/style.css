@@ -73,6 +73,22 @@ header {
     left: 2rem;
 }
 
+.welcome-hero {
+    min-height: 80vh;
+    background-image: url(/assets/images/nepalidevu-mount-everest-edited.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.section-view {
+    padding: 5rem 2rem;
+    min-height: 50vh;
+    background-color: var(--surface);
+}
 /*====== NAV ======*/
 nav a {
     display: inline;
