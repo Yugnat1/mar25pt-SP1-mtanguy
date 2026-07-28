@@ -1,6 +1,6 @@
 :root {
   --primary: #2d6a4f;
-  --primary-light: #51a780;
+  --primary-light: #edf4ef;
   --primary-dark: #1f4d3a;
   --secondary: #3a86b8;
   --accent: #ff7b54;
@@ -197,7 +197,7 @@ header {
 }
 
 .section-light {
-  background-color: var(--bg)
+  background-color: var(--primary-light)
 }
 
 .section-dark {
@@ -285,17 +285,17 @@ header {
 }
 
 .newsletter-text .section-label {
-  color: white;
+  color: var(--primary);
   margin-bottom: 0.75 rem;
 }
 
 .newsletter-text h2 {
-  color: white;
+  color: var(--text);
   margin-bottom: 1rem;
 }
 
 .newsletter-text p {
-  color: whitesmoke;
+  color: var(--text);
   margin-bottom: 1rem;
 }
 
