@@ -275,12 +275,27 @@ header {
 .newsletter-inner {
   display:flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
   max-width: var(--max);
   margin: 0 auto;
   padding: 4rem 2rem;
+}
+
+.newsletter-text .section-label {
+  color: white;
+  margin-bottom: 0.75 rem;
+}
+
+.newsletter-text h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.newsletter-text p {
+  color: whitesmoke;
+  margin-bottom: 1rem;
 }
 /*====== NAV ======*/
 nav a {
