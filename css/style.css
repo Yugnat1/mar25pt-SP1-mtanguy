@@ -111,6 +111,21 @@ header {
     max-width: 480px;
 }
 
+.btn-cta {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-cta:hover {
+    background: var(--accent-dark);
+}
 
 .section-view {
     padding: 5rem 2rem;
@@ -141,15 +156,6 @@ header {
   padding: 5rem 10%;
 }
 
-.features-section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    min-height: auto;
-}
-
-.features-section .section-label {
-    margin-bottom: 1.5rem;
-}
 .section-light {
   background-color: var(--bg)
 }
