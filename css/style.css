@@ -135,7 +135,7 @@ header {
     color: var(--primary-dark);
     font-weight: 700;
     font-size: 0.9rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .section {
@@ -147,11 +147,9 @@ header {
 }
 
 .section-dark {
-  background-color: var(--bg-dark)
-}
-
-.next-adventure img {
-  width: 50%;
+  background-color: var(--bg-dark);
+  padding-top: 7rem;
+  padding-bottom: 6rem;
 }
 
 .feature-grid {
