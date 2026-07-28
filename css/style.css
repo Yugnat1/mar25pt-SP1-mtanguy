@@ -165,6 +165,12 @@ header {
     max-width: 500px;
 }
 
+.next-adventure-img {
+    flex: 1;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
 
 .section-label {
     text-transform: uppercase;
