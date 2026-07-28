@@ -266,6 +266,22 @@ header {
     font-weight: 600;
 }
 
+/***** Newsletter Section ===*/
+
+,nesletter {
+  background: var(--primary);
+}
+
+.newsletter-inner {
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
 /*====== NAV ======*/
 nav a {
     display: inline;
