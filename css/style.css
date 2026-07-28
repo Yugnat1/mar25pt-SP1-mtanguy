@@ -126,7 +126,6 @@ header {
 
 .next-adventure {
   background-color: var(--bg);
-
 }
 
 .section-label {
@@ -142,6 +141,15 @@ header {
   padding: 5rem 10%;
 }
 
+.features-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: auto;
+}
+
+.features-section .section-label {
+    margin-bottom: 1.5rem;
+}
 .section-light {
   background-color: var(--bg)
 }
