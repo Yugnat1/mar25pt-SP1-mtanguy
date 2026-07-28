@@ -268,7 +268,7 @@ header {
 
 /***** Newsletter Section ===*/
 
-,nesletter {
+.newsletter {
   background: var(--primary);
 }
 
