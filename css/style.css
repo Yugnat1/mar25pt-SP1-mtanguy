@@ -140,8 +140,31 @@ header {
 }
 
 .next-adventure {
-  background-color: var(--bg);
+    display: flex;
+    min-height: 550px;
 }
+
+.next-adventure-text {
+    flex: 1;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.next-adventure-text h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.next-adventure-text p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
 
 .section-label {
     text-transform: uppercase;
