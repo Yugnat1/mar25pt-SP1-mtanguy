@@ -76,13 +76,19 @@ header {
 
 .welcome-hero {
     min-height: 80vh;
-    background-image: url(/assets/images/nepalidevu-mount-everest-edited.jpg);
+    background-image: url(../assets/images/nepalidevu-mount-everest-edited.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: grid;
-    place-items: center;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 2rem 3rem;
+    color: white;
 }
 
 .section-view {
@@ -112,6 +118,39 @@ header {
   width: 50%;
 }
 
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.feature-grid article {
+    text-align: center;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.adventure-grid article {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    transition: transform .3s;
+}
+
+.adventure-grid article:hover {
+    transform: translateY(-8px);
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
 /*====== NAV ======*/
 nav a {
     display: inline;
