@@ -114,7 +114,7 @@ header {
 
 .section-view {
     padding: 5rem 2rem;
-    min-height: 50vh;
+    min-height: 30vh;
     background-color: var(--surface);
     max-width: var(--max);
     margin: 0 auto;
