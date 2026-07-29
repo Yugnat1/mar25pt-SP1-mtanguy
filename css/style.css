@@ -155,7 +155,6 @@ header {
 
 .next-adventure-text {
     flex: 1;
-
     color: white;
     display: flex;
     flex-direction: column;
