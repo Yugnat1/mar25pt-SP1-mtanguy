@@ -18,8 +18,8 @@
   /* ==== badges ====*/
   --diff-easy: #4caf82;
   --diff-moderate: #4a90d9;
-  --diff-challenging: ##ff7b54;
-  --diff-extreeme: ##d64545;
+  --diff-challenging: #ff7b54;
+  --diff-extreeme: #d64545;
 }
 
 /* ========= GLOBAL ===================*/
@@ -295,8 +295,8 @@ header {
 }
 
 .trip-grid {
-  grid-template-columns: repeat(4.1fr);  
-  gap: 5rem;
+  grid-template-columns: repeat(3,1fr);  
+  gap: 2rem;
 }
 
 /***** Newsletter Section ===*/
