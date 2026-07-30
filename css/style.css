@@ -226,17 +226,15 @@ header {
 }
 
 .adventure-grid article {
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,.1);
-    transition: transform .3s;
     padding-bottom: 1.5rem;
 }
 
-.adventure-grid article:hover {
-    transform: translateY(-8px);
-}
 
 .adventure-grid img {
     width: 100%;
@@ -261,8 +259,10 @@ header {
 
 .adventure-grid a {
     display: inline-block;
+    align-self: flex-start;
     margin: 1rem 1.5rem 0;
     padding: 0.6rem 1.25rem;
+    margin-top: auto;
     background: var(--primary);
     color: white;
     border-radius: 6px;
