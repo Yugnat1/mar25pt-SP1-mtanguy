@@ -15,6 +15,11 @@
   --max: 1440px;
   --shadow: 0 12px 30px rgba(20, 37, 29, 0.08);
   --shadow-soft: var(--shadow);
+  /* ==== badges ====*/
+  --diff-easy: #4caf82;
+  --diff-moderate: #4a90d9;
+  --diff-challenging: ##ff7b54;
+  --diff-extreeme: ##d64545;
 }
 
 /* ========= GLOBAL ===================*/
@@ -283,6 +288,10 @@ header {
 
 .adventure-grid a:hover {
     background-color: var(--primary-dark);
+}
+
+.trip-grid {
+  grid-template-columns: repeat(4.1fr);  
 }
 
 /***** Newsletter Section ===*/
