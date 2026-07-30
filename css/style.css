@@ -215,6 +215,10 @@ header {
     text-align: center;
 }
 
+.feature-grid i {
+    padding-bottom: 2rem;
+}
+
 .adventure-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
