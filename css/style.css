@@ -127,6 +127,10 @@ header {
     max-width: 480px;
 }
 
+.hero-content .btn-cta {
+    margin-top: 2rem;
+}
+
 .btn-cta {
     display: inline-block;
     align-self: flex-start;
@@ -159,10 +163,14 @@ header {
     margin-top: 4rem;
 }
 
+
 .section-view {
     padding: 5rem 2rem;
     min-height: 30vh;
     background-color: var(--surface);
+}
+.why-travel-with {
+    min-height: auto;
 }
 
 .section-view > * {
