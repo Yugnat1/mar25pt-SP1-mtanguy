@@ -130,7 +130,7 @@ header {
 .btn-cta {
     display: inline-block;
     align-self: flex-start;
-    background: var(--accent);
+    background: var(--accent-dark);
     color: white;
     font-weight: 700;
     padding: 1rem 2rem;
@@ -146,12 +146,18 @@ header {
 
 .cta-banner {
     text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/biancamentil-landscape-1192669.jpg);;  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
 }
 
-.cta-banner h2 {
+.cta-banner h2,
+.cta-banner p {
+    color: var(--bg);
     margin-top: 4rem;
 }
-
 
 .section-view {
     padding: 5rem 2rem;
@@ -308,6 +314,11 @@ header {
   gap: 2rem;
 }
 
+.why-travel-grid {
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 4rem;
+}
+
 /***** Newsletter Section ===*/
 
 .newsletter {
@@ -366,6 +377,15 @@ header {
 
 .newsletter-form button:hover {
     background: var(--accent-dark);
+}
+
+/* === IMAGES ==*/
+.thumbnail-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    margin-bottom: 2rem;
 }
 
 /*====== NAV ======*/
