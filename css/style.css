@@ -92,6 +92,10 @@ header {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
     url(../assets/images/sitoruiz-sea-edited.jpg);;
 }
+
+.adventure-hero .section-label {
+    color: var(--bg);
+}
 .hero-content {
     max-width: var(--max);
     width: 100%;
