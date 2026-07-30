@@ -287,11 +287,12 @@ header {
 }
 
 .adventure-grid a:hover {
-    background-color: var(--primary-dark);
+    background-color: var(--accent-dark);
 }
 
 .trip-grid {
   grid-template-columns: repeat(4.1fr);  
+  gap: 5rem;
 }
 
 /***** Newsletter Section ===*/
