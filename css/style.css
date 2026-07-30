@@ -144,6 +144,15 @@ header {
     transform: translateY(-2px);
 }
 
+.cta-banner {
+    text-align: center;
+}
+
+.cta-banner h2 {
+    margin-top: 4rem;
+}
+
+
 .section-view {
     padding: 5rem 2rem;
     min-height: 30vh;
