@@ -156,6 +156,10 @@ header {
     margin-right: auto;
 }
 
+.included-heading {
+    margin-bottom: 4rem;
+}
+
 .next-adventure {
     display: flex;
     background: var(--primary);
