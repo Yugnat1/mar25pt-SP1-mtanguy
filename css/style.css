@@ -392,6 +392,7 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 2px solid var(--primary);
     box-shadow: 0 10px 25px rgba(0,0,0,.1);
     margin-bottom: 2rem;
 }
