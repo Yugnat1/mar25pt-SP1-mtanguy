@@ -77,7 +77,8 @@ header {
 
 .welcome-hero {
     min-height: 80vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), url(../assets/images/nepalidevu-mount-everest-edited.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/nepalidevu-mount-everest-edited.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -86,6 +87,11 @@ header {
     text-align: left;
 }
 
+.adventure-hero {
+    min-height: 60vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/sitoruiz-sea-edited.jpg);;
+}
 .hero-content {
     max-width: var(--max);
     width: 100%;
