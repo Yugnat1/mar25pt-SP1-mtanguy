@@ -112,7 +112,11 @@ header {
     color: var(--bg);
 }
 
+.destination-block {
+    display: flex;
+    align-items: flex-start;
 
+}
 .hero-content {
     max-width: var(--max);
     width: 100%;
