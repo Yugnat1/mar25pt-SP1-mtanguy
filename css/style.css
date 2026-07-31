@@ -98,9 +98,6 @@ header {
     url(../assets/images/sitoruiz-sea-edited.jpg);;
 }
 
-.adventure-hero .section-label {
-    color: var(--bg);
-}
 
 .destination-hero {
     min-height: 60vh;
@@ -108,6 +105,13 @@ header {
     url(../assets/images/kordi_vahle-dolomites-edited.jpg);;
 
 }
+
+.about-hero {
+    min-height: 30vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/destination-norway.jpg);;
+}
+
 .destination-hero .section-label {
     color: var(--bg);
 }
