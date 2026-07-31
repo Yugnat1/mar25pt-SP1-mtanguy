@@ -422,6 +422,12 @@ header {
     border: 1px solid var(--primary);
     border-radius: 5px;
     font-family: var(--font-body);
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 1.5rem;
+    border: none;
 }
 
 /* === IMAGES ==*/
