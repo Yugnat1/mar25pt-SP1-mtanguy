@@ -54,7 +54,6 @@
     </header>
     <main>
       <section>
-        <h1>Send Us a Message</h1>
         <div class="content-block reversed">
           <div class="content-media">
             <img
@@ -63,48 +62,45 @@
             />
           </div>
           <div class="content-text">
-            <form>
-              <fieldset>
-                <legend>Your Details</legend>
-                <label for="name">Full Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="John Smith"
-                  required
-                />
-                <label for="email">Email Address</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="john@example.com"
-                  required
-                />
-              </fieldset>
-              <fieldset>
-                <legend>Your Adventure</legend>
-                <label for="destination">Destination</label>
-                <select id="destination" name="destination">
-                  <option value="">Select a destination</option>
-                  <option>Nepal</option>
-                  <option>Iceland</option>
-                  <option>Peru</option>
-                  <option>Norway</option>
-                  <option>Morocco</option>
-                  <option>New Zealand</option>
-                </select>
-                <label for="message">Your Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="8"
-                  placeholder="Tell us how we can help..."
-                  required
-                ></textarea>
-              </fieldset>
-              <button type="submit">Send Message</button>
+            <h1>Send Us a Message</h1>
+            <form class="contact-form">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Smith"
+                required
+              />
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+              <legend>Your Adventure</legend>
+              <label for="destination">Destination</label>
+              <select id="destination" name="destination">
+                <option value="">Select a destination</option>
+                <option>Nepal</option>
+                <option>Iceland</option>
+                <option>Peru</option>
+                <option>Norway</option>
+                <option>Morocco</option>
+                <option>New Zealand</option>
+              </select>
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="8"
+                placeholder="Tell us how we can help..."
+                required
+              >
+              </textarea>
+              <button type="submit" class="btn-cta">Send Message</button>
             </form>
           </div>
         </div>
