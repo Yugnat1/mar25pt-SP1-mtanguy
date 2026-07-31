@@ -115,8 +115,22 @@ header {
 .destination-block {
     display: flex;
     align-items: flex-start;
+    gap: 3rem;
 
 }
+
+.destination-media,
+.destination-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.destination-media img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
 .hero-content {
     max-width: var(--max);
     width: 100%;
