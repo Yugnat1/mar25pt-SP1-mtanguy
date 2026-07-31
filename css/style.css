@@ -419,7 +419,8 @@ header {
 .contact-form textarea {
     width: 100%;
     padding: 1rem;
-    border: 1px solid var(--primary)
+    border: 1px solid var(--primary);
+    border-radius: 5px;
 }
 
 /* === IMAGES ==*/
