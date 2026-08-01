@@ -661,13 +661,18 @@ footer {
 
     header {
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         height: auto;
         padding: 1rem;
     }
 
     .logo-header {
-        position: relative;
-        margin-bottom: 1rem;
+        position: static;
+    }
+
+    .logo-header logo{
+        height: 50px;
     }
 
     .main-nav {
@@ -683,7 +688,22 @@ footer {
     .navigation-mobile .hamburger-icon {
         display: inline-block;
     }
-    
+
+    .hero-content {
+        padding: 1.5rem;
+    }
+
+    .feature-grid,
+    .adventure-grid,
+    .faq-grid,
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-form input {
+        min-width: 0;
+        width: 100%;
+    }
 }
 
 
