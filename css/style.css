@@ -15,11 +15,6 @@
   --max: 1440px;
   --shadow: 0 12px 30px rgba(20, 37, 29, 0.08);
   --shadow-soft: var(--shadow);
-  /* ==== badges ====*/
-  --diff-easy: #4caf82;
-  --diff-moderate: #4a90d9;
-  --diff-challenging: #ff7b54;
-  --diff-extreeme: #d64545;
 }
 
 /* ========= GLOBAL ===================*/
@@ -411,10 +406,6 @@ header {
 .faq-grid summary {
     list-style: none;
     cursor: pointer;
-}
-
-.faq-grid details {
-    margin-top: 1rem;
 }
 
 /* === IMAGES ==*/
