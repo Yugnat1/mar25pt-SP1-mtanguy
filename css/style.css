@@ -444,6 +444,11 @@ header {
     box-shadow: var(--shadow);
 }
 
+.faq-grid summary {
+    list-style: none;
+    cursor: pointer;
+}
+
 /* === IMAGES ==*/
 .thumbnail-img {
     width: 200px;
