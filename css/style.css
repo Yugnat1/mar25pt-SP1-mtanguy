@@ -449,6 +449,10 @@ header {
     cursor: pointer;
 }
 
+.faq-grid details {
+    margin-top: 1rem;
+}
+
 /* === IMAGES ==*/
 .thumbnail-img {
     width: 200px;
