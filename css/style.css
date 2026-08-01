@@ -647,7 +647,8 @@ footer {
         grid-template-columns: repeat(2,1fr);
     }
 
-    .content-block {
+    .content-block,
+    .content-block.reverse {
         flex-direction: column;
     }
 
