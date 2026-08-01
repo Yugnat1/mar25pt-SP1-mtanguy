@@ -163,6 +163,10 @@ header {
     transition: background 0.3s;
 }
 
+.welcome-hero .btn-cta {
+    background: #d64545;
+}
+
 .btn-cta:hover {
     background: var(--accent-dark); 
 }
@@ -623,8 +627,63 @@ footer {
 .navigation-mobile input#menu-checkbox:checked ~ nav {
     display:flex;
 }
-/*===== MEDIA ====*/
 
-/*=== TABLET ===*/
+/*=== @MEDIA TABLET ===*/
+
+@media (max-width: 900px)
+ {
+    .logo {
+        display: none;
+     }
+    .feature-grid,
+    .adventure-grid,
+    .why-travel-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .footer-top {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .content-block {
+        flex-direction: column;
+    }
+
+    .content-media img {
+        height: 350px;
+    }
+    }
+
+
+/*=== @MOBILE ===*/
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .logo-header {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation-mobile .hamburger-icon {
+        display: inline-block;
+    }
+    
+}
 
 
