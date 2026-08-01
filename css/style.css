@@ -430,6 +430,20 @@ header {
     border: none;
 }
 
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.faq-grid details {
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    box-shadow: var(--shadow);
+}
+
 /* === IMAGES ==*/
 .thumbnail-img {
     width: 200px;
