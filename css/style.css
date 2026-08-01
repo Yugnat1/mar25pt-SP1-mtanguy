@@ -3,8 +3,8 @@
   --primary-light: #edf4ef;
   --primary-dark: #1f4d3a;
   --secondary: #3a86b8;
-  --accent: #ff7b54;
-  --accent-dark: #e86642;
+  --accent: #3A86B8;
+  --accent-dark: #6A2D48;
   --bg: #f8f9fa;
   --bg-dark: #c5dad6;
   --surface: #fff;
@@ -154,7 +154,7 @@ header {
 .btn-cta {
     display: inline-block;
     align-self: flex-start;
-    background: var(--accent-dark);
+    background: var(--primary);
     color: white;
     font-weight: 700;
     padding: 1rem 2rem;
@@ -164,8 +164,7 @@ header {
 }
 
 .btn-cta:hover {
-    background: var(--accent-dark);
-    transform: translateY(-2px);
+    background: var(--accent-dark); 
 }
 
 .cta-banner {
@@ -395,7 +394,7 @@ header {
 
 .newsletter-form button {
     padding: 0.9rem 1.75rem;
-    background: var(--accent);
+    background: var(--primary);
     color: white;
     font-weight: 600;
     border: none;
@@ -428,6 +427,7 @@ header {
 .contact-form button {
     margin-top: 1.5rem;
     border: none;
+    cursor: pointer;
 }
 
 .faq-grid {
@@ -514,7 +514,7 @@ nav a {
 }
 
 nav a.active {
-  border-bottom-color: var(--accent);
+  border-bottom-color: var(--accent-dark);
 }
 
 .main-nav ul {
