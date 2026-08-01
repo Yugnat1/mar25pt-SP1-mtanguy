@@ -234,7 +234,7 @@ header {
 }
 
 .next-adventure-text p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(4, 4, 4, 0.9);
     margin-bottom: 2rem;
     max-width: 500px;
 }
@@ -316,7 +316,7 @@ header {
 .adventure-grid p {
     padding: 0 1.5rem;
     margin: 0.35rem 1;
-    color: var(--muted);
+    color: black;
 }
 
 .adventure-grid p strong {
