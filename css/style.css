@@ -182,6 +182,22 @@ header {
     margin-top: 4rem;
 }
 
+.confirmattion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.confirmattion-section p {
+    max-width: 500px;
+}
+
+.confirmattion-section .btn-cta {
+    align-self: center;
+}
 
 .section-view {
     padding: 5rem 2rem;
@@ -623,6 +639,7 @@ footer {
     .content-block,
     .content-block.reverse {
         flex-direction: column;
+        align-items: stretch;
     }
 
     .content-media img {
