@@ -97,7 +97,7 @@ header {
 .destination-hero {
     min-height: 60vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
-    url(../assets/images/kordi_vahle-dolomites-edited.jpg);;
+    url(../assets/images/destinations-hero-desktop.jpg);;
 
 }
 
@@ -583,6 +583,12 @@ footer {
 
 @media (max-width: 900px)
  {
+
+    .destination-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/destinations-hero-tablet.jpg);;
+    }
+
     .logo {
         display: none;
      }
@@ -639,6 +645,11 @@ footer {
 
     .navigation-mobile .hamburger-icon {
         display: inline-block;
+    }
+
+    .destination-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/destinations-hero-mobile.jpg);;
     }
 
     .hero-content {
