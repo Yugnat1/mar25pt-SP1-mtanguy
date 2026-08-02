@@ -78,7 +78,7 @@ header {
 .welcome-hero {
     min-height: 80vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
-    url(../assets/images/nepalidevu-mount-everest-edited.jpg);
+    url(../assets/images/home-hero-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +90,7 @@ header {
 .adventure-hero {
     min-height: 60vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
-    url(../assets/images/sitoruiz-sea-edited.jpg);;
+    url(../assets/images/adventures-hero-dekstop.jpg);;
 }
 
 
@@ -104,7 +104,7 @@ header {
 .about-hero {
     min-height: 60vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
-    url(../assets/images/destination-norway.jpg);;
+    url(../assets/images/aboutus-hero-dekstop.jog.jpg);;
 }
 
 .about-hero p.section-label {
@@ -584,10 +584,27 @@ footer {
 @media (max-width: 900px)
  {
 
+    .welcome-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/home-hero-tablet.jpg);
+    }
+
+    .adventure-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/adventures-hero-tablet.jpg);
+    }
+    
+
     .destination-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
     url(../assets/images/destinations-hero-tablet.jpg);;
     }
+
+    .about-hero {
+    min-height: 60vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/aboutus-hero-tablet.jpg);;
+}
 
     .logo {
         display: none;
@@ -647,10 +664,25 @@ footer {
         display: inline-block;
     }
 
+    .welcome-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/home-hero-mobile.jpg);
+    }
+
+    .adventure-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/adventures-hero-mobile.jpg);
+    }
+    
     .destination-hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
     url(../assets/images/destinations-hero-mobile.jpg);;
     }
+
+    .about-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.2) 45%, transparent 75%), 
+    url(../assets/images/aboutus-hero-mobile.jpg);;
+}
 
     .hero-content {
         padding: 1.5rem;
